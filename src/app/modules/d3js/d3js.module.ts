@@ -12,6 +12,6 @@ import { GraphOneComponent } from './graph-one/graph-one.component';
   imports: [
     CommonModule,
     D3jsRoutingModule
-  ]
+  ], 
 })
 export class D3jsModule { }
