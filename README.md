@@ -10,4 +10,13 @@ Run `npm install d3 && npm install @types/d3 --save-dev ` you can also download 
 
 Type definitions will allow TypeScript to apply type hints to the external D3 code.
 
+## Switch branch default (main to dev)
+
+`git branch -m master dev ` 
+
+`git fetch origin `
+
+`git branch -u origin/dev dev `
+
+`git remote set-head origin -a`
 
