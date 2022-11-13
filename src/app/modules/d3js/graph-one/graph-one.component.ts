@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit } from '@angular/core';
 import * as d3 from 'd3';
 import { Invoice } from '../models/invoice.model';
 import { DataSetService } from '../services/data-set.service';
