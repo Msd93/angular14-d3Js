@@ -82,4 +82,13 @@ export class GraphOneComponent implements OnInit {
       .attr("fill", "#d04a35");
   }
 
+  public sum(tab: number[]): number {
+    let s: number = 0;
+    for (let i = 0; i < tab.length; i++) {
+      if (tab[i]!== 0) {
+        s += tab[i];
+      }
+    }
+    return s;
+  }
 }
